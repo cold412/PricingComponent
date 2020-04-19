@@ -53,6 +53,8 @@ body {
 
 .box2 {
   flex-grow: 3;
+  background-image: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237,63%,64%));
+  border-radius: 3px;
 }
 
 .main {
@@ -92,4 +94,24 @@ hr {
     width: 70%;
     justify-content: center;
     padding: 3%;
+    color: white;
+}
+
+
+.box2 h3,.box2h5{
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    border-radius: 3px;
+    display: inline-flex;
+    width: 70%;
+    justify-content: center;
+    padding: 3%;
+}
+
+.button2 h5 {
+    border-color: black;
+    color: black;
 }
