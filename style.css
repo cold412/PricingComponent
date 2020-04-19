@@ -1,7 +1,8 @@
 
 * {
-  font-family: 'Montserrat', sans-serif;A
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
+  font-weight: 700;
   color: hsl(232, 13%, 33%);
 }
 
@@ -178,4 +179,34 @@ hr {
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+
+
+
+
+  /* Mobile */
+
+
+ @media (max-width: 375px) {
+
+
+.main {
+  display: inline;
+}
+
+.box1, .box2, .box3 {
+  padding-top: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
   }
