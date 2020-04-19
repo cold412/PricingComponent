@@ -1,0 +1,14 @@
+.top {
+    display: grid;
+    text-align: center;
+}
+
+.box, .box2{
+    display: flexbox;
+    text-align:  center;
+}
+
+
+.main {
+    display: flex;
+}
