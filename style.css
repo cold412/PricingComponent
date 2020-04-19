@@ -4,6 +4,14 @@
   font-size: 15px;
 }
 
+
+
+
+
+.price {
+    font-style: strong,bold;
+}
+
 .top {
   display: grid;
   grid-row: 1fr 1fr;
@@ -26,13 +34,14 @@
   text-align: center;
 }
 
+
 .box1,
 .box3 {
-  flex-grow: 10;
+  flex-grow: 2;
 }
 
 .box2 {
-  flex-grow: 2;
+  flex-grow: 3;
 }
 
 .main {
@@ -46,6 +55,7 @@
   background: url(bg-bottom.svg), url(bg-top.svg);
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat;
+  background-color: hsl(240, 78%, 98%);
 }
 
 .top {
